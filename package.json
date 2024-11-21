@@ -1,0 +1,19 @@
+{
+  "name": "api-test-nodejs",
+  "version": "1.0.0",
+  "description": "This project demonstrates api tests with nodejs libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts --parallel --exit"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "googleapis": "^139.0.0",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
